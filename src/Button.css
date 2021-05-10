@@ -1,0 +1,11 @@
+.Button {
+  background: cyan;
+  padding: 12px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.Button.active {
+  background: hotpink;
+}
