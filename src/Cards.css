@@ -1,0 +1,27 @@
+.Card {
+  padding: 20px;
+  background: white;
+  position: relative;
+}
+
+.Card__title {
+  font-weight: 300;
+  font-family: sans-serif;
+  color: red;
+}
+
+.Card__bookmark {
+  width: 20px;
+  height: 60px;
+  background-color: grey;
+  border: none;
+  overflow: hidden;
+  text-indent: -999px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.Card__bookmark--active {
+  background: hotpink;
+}
