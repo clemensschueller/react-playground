@@ -1,0 +1,9 @@
+.Header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 12px;
+  background: darkcyan;
+  color: white;
+  font-family: sans-serif;
+}
