@@ -1,10 +1,15 @@
 import * as React from 'react'
-import Button from './Button'
+import Card from './Cards.jsx'
 
 export default () => {
   return (
-    <div>
-      <Card title="Hello world" copyText="How are you?"
+    <div className="App">
+      <Card title="Hello world" copyText="Lorem, ipsum dolor." />
+      <Card
+        isBookmarked
+        title="Moin world"
+        copyText="dolor sit amet consectetur?"
+      />
     </div>
   )
 }
